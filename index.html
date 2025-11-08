@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WaitTime - Find and Join Lines</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <h1>WaitTime</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Map View</a></li>
+        <li><a href="#">Favorites</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Search and Filter Section -->
+  <section class="search-section">
+    <h2>Find Nearby Businesses</h2>
+    <input type="text" id="searchBar" placeholder="Search restaurants, salons, etc..." />
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="restaurant">Restaurants</option>
+      <option value="salon">Salons</option>
+      <option value="store">Stores</option>
+    </select>
+    <button id="searchButton">Search</button>
+  </section>
+
+  <!-- Nearby Businesses Section -->
+  <section class="business-list">
+    <h2>Nearby Businesses</h2>
+
+    <!-- Example Business Cards -->
+    <div class="business-card">
+      <h3>Joe’s Diner</h3>
+      <p>Wait Time: 15 min</p>
+      <button>Join Line</button>
+    </div>
+
+    <div class="business-card">
+      <h3>Style Studio Salon</h3>
+      <p>Wait Time: 25 min</p>
+      <button>Join Line</button>
+    </div>
+
+    <div class="business-card">
+      <h3>QuickCuts Barbershop</h3>
+      <p>Wait Time: 10 min</p>
+      <button>Join Line</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 WaitTime App | Designed by Tyler Daniels</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
